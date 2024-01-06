@@ -1,0 +1,1256 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    header{
+        .continir{
+            max-width: 1500px;
+            margin: 0 auto;
+            nav{
+                max-width: 1100px;
+                margin: 0 auto;
+                .navigition{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-top: 28px;
+                    padding-bottom: 28px;
+                    .navigitionlinks{
+                        a{
+                            text-decoration: none;
+                            margin-left: 37px;
+                            color: #000;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                        }
+                        a:hover{
+                            color: #B3B3B3;
+                            cursor: pointer;
+                        }
+                    }
+                    .navigitionbutton{
+                        button{
+                            padding: 12px 24px 12px 24px;
+                            border: none;
+                            background-color: #000;
+                            a{
+                                text-decoration: none;
+                                color: #fff;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;  
+                            }
+                        }
+                        button:hover{
+                            background-color: #B3B3B3;
+                            a{
+                                color: #000;
+                            }
+                        }
+                    }
+                }
+            }
+            .headerbanner{
+                background-image: url("../img/headerbg.png");
+                .headerbannertext{
+                    padding-left: 12px;
+                    .hone{
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2px;
+                        padding-top: 122px;
+                    }
+                    h1{
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 48px; /* 120% */
+                        letter-spacing: 4.167px;
+                        text-transform: uppercase;
+                        margin-top: 24px;
+                    }
+                    .htwo{
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-top: 16px;
+                    }
+                    p{
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px; 
+                    }
+                    button{
+                        margin-top: 24px;
+                        padding-bottom:122px ;
+                        border: none;
+                        background-color: #0f1b2920;
+                        a{
+                            text-decoration: none;
+                            color: #FFF;
+                            text-align: right;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                        }
+                        a:hover{
+                            border-bottom: 1px solid wheat;
+                            cursor: pointer;
+                        }
+                        img{
+                            margin-left: 16px;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+    main{
+        .sectionone{
+            .continir{
+                max-width: 1500px;
+                margin: 0 auto;
+                .sectionbannerthree{
+                    display: flex; 
+                    align-items: center;
+                    justify-content: space-between;
+                    // flex-wrap: wrap;
+                    .sectionnature{
+                        background-image: url("../img/nature.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .sectionnature:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px);
+                        cursor: pointer;
+                    }
+                    .scetioncity{
+                        background-image: url("../img/city.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .scetioncity:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px); 
+                        cursor: pointer;
+                    }
+                    .sectionman{
+                        background-image: url("../img/man.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .sectionman:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px); 
+                        cursor: pointer;
+                    }
+                    .sectionhouse{
+                        background-image: url("../img/house.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .sectionhouse:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px); 
+                        cursor: pointer;
+                    }
+                    
+                }
+            }
+        }
+        .sectiontwo{
+            
+            .continir{
+                max-width: 1500px;
+                margin: 0 auto;
+                .sectionbannerthree{
+                    display: flex; 
+                    align-items: center;
+                    justify-content: space-between;
+                    .sectionnature{
+                        background-image: url("../img/mountaen.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .sectionnature:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px);
+                        cursor: pointer;
+                    }
+                    .scetioncity{
+                        background-image: url("../img/tree.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .scetioncity:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px); 
+                        cursor: pointer;
+                    }
+                    .sectionman{
+                        background-image: url("../img/lion.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .sectionman:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px); 
+                        cursor: pointer;
+                    }
+                    .sectionhouse{
+                        background-image: url("../img/treeone.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .sectionhouse:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px); 
+                        cursor: pointer;
+                    }
+                    
+                }
+            }
+        }
+        .sectionthree{
+            
+            .continir{
+                max-width: 1500px;
+                margin: 0 auto;
+                .sectionbannerthree{
+                    display: flex; 
+                    align-items: center;
+                    justify-content: space-between;
+                    .sectionnature{
+                        background-image: url("../img/water.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .sectionnature:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px);
+                        cursor: pointer;
+                    }
+                    .scetioncity{
+                        background-image: url("../img/hours.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .scetioncity:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px); 
+                        cursor: pointer;
+                    }
+                    .sectionman{
+                        background-image: url("../img/watrerone.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .sectionman:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px); 
+                        cursor: pointer;
+                    }
+                    .sectionhouse{
+                        background-image: url("../img/mountainone.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .sectionhouse:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px); 
+                        cursor: pointer;
+                    }
+                    
+                }
+            }
+        }
+        .sectionfour{
+            
+            .continir{
+                max-width: 1500px;
+                margin: 0 auto;
+                .sectionbannerthree{
+                    display: flex; 
+                    align-items: center;
+                    justify-content: space-between;
+                    .sectionnature{
+                        background-image: url("../img/start.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .sectionnature:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px);
+                        cursor: pointer;
+                    }
+                    .scetioncity{
+                        background-image: url("../img/mountaintwo.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .scetioncity:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px); 
+                        cursor: pointer;
+                    }
+                    .sectionman{
+                        background-image: url("../img/flowers.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .sectionman:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px); 
+                        cursor: pointer;
+                    }
+                    .sectionhouse{
+                        background-image: url("../img/snow.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .sectionhouse:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px); 
+                        cursor: pointer;
+                    }
+                    
+                }
+            } 
+        }
+        
+    }
+    footer{
+        background: #000;
+        width: 100%;
+        height: 100%;
+        .continir{
+            max-width: 1100px;
+            margin:0 auto;
+            .footerbanner{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .footerbannerlogo{
+                    padding-top:64px ;
+                    .logolinks{
+                        margin-top: 85px;
+                        padding-bottom: 65px;
+                    }
+                }
+                .footerbannerlinks{
+                    display: flex;
+                    flex-direction: column;
+                    a{
+                        margin-top: 19px;
+                        text-decoration: none;
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                    }
+                    a:hover{
+                        color: #494949;
+                    }
+                }
+                .footerbannerdate{
+                    button{
+                        border: none;
+                        background: #000;
+                        a{
+                            text-decoration: none;color: #FFF;
+                            text-align: right;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                        }
+                    }
+                    button:hover{
+                        border-bottom: 1px solid white;
+                    }
+                    p{
+                        color: #494949;
+                        text-align: right;
+                        font-family: DM Sans;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-top: 86px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:1280px) {
+    .sectionbannerthree{
+        flex-direction: column;
+    }
+}
+@media (max-width:680px) {
+    .navigitionlinks{
+        display: none;
+    }
+    .footerbanner{
+        flex-direction: column;
+    }
+    .footerbannerdate{
+        margin-top: 10px;
+    }
+}
+@media (max-width:460px) {
+    .headerbannertext{
+        padding-right: 90px;
+    }
+}
+@media (max-width:423px) {
+    .navigitionbutton{
+        display: none;
+    }
+    .footerbannerdate{
+        width: 100%;
+        height: 150px;
+        text-align: center;
+        margin-top: 20px;
+        p{
+            margin-right: 30px;
+        }
+    }
+    
+}
+@media (max-width:320px) {
+    .sectionnature{
+        max-width: 200px;
+        height: 100px;
+    }
+    .scetioncity{
+        max-width: 200px;
+        height: 100px; 
+    }
+    .sectionman{
+        max-width: 200px;
+        height: 100px; 
+    }
+    .sectionhouse{
+        max-width: 200px;
+        height: 100px; 
+    }
+}

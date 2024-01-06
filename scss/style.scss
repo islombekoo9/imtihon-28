@@ -1,0 +1,748 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    header{
+        .continir{
+            max-width: 1500px;
+            margin: 0 auto;
+            padding-left: 40px;
+            padding-right: 40px;
+            nav{
+                max-width: 1100px;
+                margin: 0 auto;
+                .navigition{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-top: 28px;
+                    padding-bottom: 28px;
+                    .navigitionlinks{
+                        a{
+                            text-decoration: none;
+                            margin-left: 37px;
+                            color: #000;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                        }
+                        a:hover{
+                            color: #B3B3B3;
+                            cursor: pointer;
+                        }
+                    }
+                    .navigitionbutton{
+                        button{
+                            padding: 12px 24px 12px 24px;
+                            border: none;
+                            background-color: #000;
+                            a{
+                                text-decoration: none;
+                                color: #fff;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;  
+                            }
+                        }
+                        button:hover{
+                            background-color: #B3B3B3;
+                            a{
+                                color: #000;
+                            }
+                        }
+                    }
+                }
+            }
+            .headerbanner{
+                display: flex;
+                align-items: center;
+                .headerbannertext{
+                    width: 610px;
+                    height: 650px;
+                    background-color: #000;
+                    h1{
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 48px; 
+                        letter-spacing: 4.167px;
+                        text-transform: uppercase;
+                        padding-top:173px;
+                        padding-left: 112px;
+                    }
+                    p{
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 25px; 
+                        margin-top: 21px;
+                        padding-left: 112px;
+                    }
+                    button{
+                        border: none;
+                        background-color: #000;
+                        margin-top: 48px;
+                        padding-left: 112px;
+                        a{
+                            text-decoration: none;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                        }
+                    }
+                    button:hover{
+                        cursor: pointer;
+                    }
+                    
+                }
+                .headerbannerimg{
+                    outline: hidden;
+                }
+            }
+        }
+        
+    }
+    main{
+        section{
+            .continir{
+                max-width: 1500px;
+                margin: 0 auto;
+                .sectionbannerone{
+                    display: flex;
+                    align-items: center;
+                    .sectionbannertextone{
+                        padding-left: 112px
+                        ;
+                        h1{
+                            color: #000;
+                            font-family: DM Sans;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 48px; 
+                            letter-spacing: 4.167px;
+                            text-transform: uppercase;
+                        }
+                        p{
+                            color: #000;
+                            font-family: DM Sans;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 25px; 
+                            margin-top: 21px;
+                        }
+                        button{
+                            border: none;
+                            background-color: #FFF;
+                            margin-top: 48px;
+                            a{
+                                text-decoration: none;
+                                color: #000;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            img{
+                                margin-left: 26px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        section{
+            .continir{
+                max-width: 1500px;
+                margin: 0 auto;
+                .sectionbannertwo{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .sectionbannertexttwo{
+                        padding-left: 112px;
+                        h1{
+                            color: #000;
+                            font-family: DM Sans;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 48px;
+                            letter-spacing: 4.167px;
+                            text-transform: uppercase;
+                            padding-top: 160px;
+                        }
+                        p{
+                            color: #000;
+                            font-family: DM Sans;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 25px; 
+                            margin-top: 21px;
+                        }
+                        button{
+                            border: none;
+                            background-color: #fff;
+                            margin-top: 48px;
+                            a{
+                                text-decoration: none;
+                                color: #000;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            img{
+                                margin-left: 26px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        section{
+            .continir{
+                max-width: 1500px;
+                margin: 0 auto;
+                .sectionbannerthree{
+                    display: flex; 
+                    align-items: center;
+                    justify-content: space-between;
+                    .sectionnature{
+                        background-image: url("../img/nature.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .sectionnature:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px);
+                        cursor: pointer;
+                    }
+                    .scetioncity{
+                        background-image: url("../img/city.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .scetioncity:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px); 
+                        cursor: pointer;
+                    }
+                    .sectionman{
+                        background-image: url("../img/man.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .sectionman:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px); 
+                        cursor: pointer;
+                    }
+                    .sectionhouse{
+                        background-image: url("../img/house.png");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 100%;
+                        h1{
+                            padding-top: 361px;
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            padding-left: 40px;
+                        }
+                        p{
+                            color: #FFF;
+                            font-family: DM Sans;
+                            font-size: 13px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding-left: 40px;
+                            margin-top: 5px;
+                        }
+                        .mountain{
+                            width: 280px;
+                            height: 1px;
+                            opacity: 0.25;
+                            background: #FFF;
+                            margin-top: 16px;
+                            margin-left: 40px;
+                        }
+                        .button{
+                            display: flex;
+                            align-items: center;
+                            margin-top: 20px;
+                            padding-bottom: 40px;
+                            padding-left: 40px;
+                            a{
+                                text-decoration: none;
+                                color: #FFF;
+                                font-family: DM Sans;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: 2px;
+                            }
+                            svg{
+                                margin-left: 147px;
+                            }
+                        }
+                    }
+                    .sectionhouse:hover{
+                        transition-duration: 1.5s;
+                        transform: translateY(-25px); 
+                        cursor: pointer;
+                    }
+                    
+                }
+            }
+        }
+        section{
+            .continir{
+                max-width: 1500px;
+                margin: 0 auto;
+                .sectionbannerfour{
+                    padding-top: 120px;
+                    display: flex;
+                    justify-content: space-between;
+                    max-width: 1110px;
+                    margin: 0 auto;
+                    padding-bottom: 120px;
+                    .sectionbannercom{
+                        text-align: center;
+                        h1{
+                            color: #000;
+                            text-align: center;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            margin-top: 48px;
+                        }
+                        p{
+                            color: #000;
+                            text-align: center;
+                            font-family: DM Sans;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 25px; 
+                            margin-top: 16px;
+                        }
+                    }
+                    .sectionbannerinfinite{
+                        text-align: center;
+                        h1{
+                            color: #000;
+                            text-align: center;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            margin-top: 86px;
+                        }
+                        p{
+                            color: #000;
+                            text-align: center;
+                            font-family: DM Sans;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 25px; 
+                            margin-top: 16px;
+                        }
+                    }
+                    .sectionbannerseti{
+                        text-align: center;
+                        h1{
+                            color: #000;
+                            text-align: center;
+                            font-family: DM Sans;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 25px; 
+                            margin-top: 48px;
+                        }
+                        p{
+                            color: #000;
+                            text-align: center;
+                            font-family: DM Sans;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 25px; 
+                            margin-top: 16px;
+                        } 
+                    }
+                }
+            }
+        }
+ }
+    footer{
+        background: #000;
+        width: 100%;
+        height: 100%;
+        .continir{
+            max-width: 1100px;
+            margin:0 auto;
+            .footerbanner{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .footerbannerlogo{
+                    padding-top:64px ;
+                    .logolinks{
+                        margin-top: 85px;
+                        padding-bottom: 65px;
+                    }
+                }
+                .footerbannerlinks{
+                    display: flex;
+                    flex-direction: column;
+                    a{
+                        margin-top: 19px;
+                        text-decoration: none;
+                        color: #FFF;
+                        font-family: DM Sans;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                    }
+                    a:hover{
+                        color: #494949;
+                    }
+                }
+                .footerbannerdate{
+                    button{
+                        border: none;
+                        background: #000;
+                        a{
+                            text-decoration: none;color: #FFF;
+                            text-align: right;
+                            font-family: DM Sans;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: 2px;
+                        }
+                    }
+                    button:hover{
+                        border-bottom: 1px solid white;
+                    }
+                    p{
+                        color: #494949;
+                        text-align: right;
+                        font-family: DM Sans;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-top: 86px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width:1215px) {
+    .headerbannerimg{
+        img{
+            width: 550px;
+            height: 650px;
+        }
+    }
+    .sectionbannerthree{
+        flex-direction: column;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .sectionbannerimgone{
+        img{
+            width: 550px;
+            height: 650px;
+        }
+    }
+    .sectionbannerimgtwo{
+        img{
+            width: 550px;
+            height: 650px;
+        }
+    }
+}
+@media (max-width:935px) {
+    .headerbanner{
+        flex-direction: column;
+    }
+    .sectionbannerone{
+        flex-direction: column;
+    }
+    .sectionbannertwo{
+        flex-direction: column;
+    }
+    .sectionbannerimgtwo{
+        img{
+            margin-top: 72px;
+        }
+    }
+    .sectionbannerfour{
+        flex-direction: column;
+        text-align: center;
+    }
+    .sectionbannerinfinite{
+        margin-top: 56px;
+    }
+    .sectionbannerseti{
+        margin-top: 56px;
+    }
+
+
+}
+@media (max-width:680px) {
+    .navigitionlinks{
+        display: none;
+    }
+  .headerbannerimg{
+    img{
+        width: 599px;
+        height: 460px;
+    }
+}
+.sectionbannerimgone{
+    img{
+        width: 599px;
+        height: 460px;
+    }
+}
+.sectionbannerimgtwo{
+    img{
+        width: 599px;
+        height: 460px;
+    }
+}
+.footerbanner{
+    flex-direction: column;
+}
+.footerbannerdate{
+    margin-top: 10px;
+}
+}
+@media (max-width:423px) {
+    .headerbannertext{
+        width: 100%;
+        height: 100%;
+        padding-left: 100px;
+    }
+    .navigitionbutton{
+        display: none;
+    }
+    .headerbannerimg{
+        img{
+            display: none;
+        }
+    }
+
+}
+@media (max-width:320px) {
+    .headerbannertext{
+        padding-left: 200px;
+        width: 100%;
+        height: 100%;
+    }
+    .sectionnature{
+        max-width: 200px;
+        height: 100px;
+    }
+    .scetioncity{
+        max-width: 200px;
+        height: 100px; 
+    }
+    .sectionman{
+        max-width: 200px;
+        height: 100px; 
+    }
+    .sectionhouse{
+        max-width: 200px;
+        height: 100px; 
+    }
+}

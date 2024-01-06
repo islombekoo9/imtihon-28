@@ -1,0 +1,1226 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body header .continir {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+body header .continir nav {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+body header .continir nav .navigition {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+body header .continir nav .navigition .navigitionlinks a {
+  text-decoration: none;
+  margin-left: 37px;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body header .continir nav .navigition .navigitionlinks a:hover {
+  color: #B3B3B3;
+  cursor: pointer;
+}
+body header .continir nav .navigition .navigitionbutton button {
+  padding: 12px 24px 12px 24px;
+  border: none;
+  background-color: #000;
+}
+body header .continir nav .navigition .navigitionbutton button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body header .continir nav .navigition .navigitionbutton button:hover {
+  background-color: #B3B3B3;
+}
+body header .continir nav .navigition .navigitionbutton button:hover a {
+  color: #000;
+}
+body header .continir .headerbanner {
+  background-image: url("../img/headerbg.png");
+}
+body header .continir .headerbanner .headerbannertext {
+  padding-left: 12px;
+}
+body header .continir .headerbanner .headerbannertext .hone {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  padding-top: 122px;
+}
+body header .continir .headerbanner .headerbannertext h1 {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 120% */
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+  margin-top: 24px;
+}
+body header .continir .headerbanner .headerbannertext .htwo {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 16px;
+}
+body header .continir .headerbanner .headerbannertext p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+body header .continir .headerbanner .headerbannertext button {
+  margin-top: 24px;
+  padding-bottom: 122px;
+  border: none;
+  background-color: rgba(15, 27, 41, 0.1254901961);
+}
+body header .continir .headerbanner .headerbannertext button a {
+  text-decoration: none;
+  color: #FFF;
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body header .continir .headerbanner .headerbannertext button a:hover {
+  border-bottom: 1px solid wheat;
+  cursor: pointer;
+}
+body header .continir .headerbanner .headerbannertext button img {
+  margin-left: 16px;
+}
+body main .sectionone .continir {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+body main .sectionone .continir .sectionbannerthree {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body main .sectionone .continir .sectionbannerthree .sectionnature {
+  background-image: url("../img/nature.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main .sectionone .continir .sectionbannerthree .sectionnature h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionnature p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionnature .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionnature .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionnature .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionnature .button svg {
+  margin-left: 147px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionnature:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main .sectionone .continir .sectionbannerthree .scetioncity {
+  background-image: url("../img/city.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main .sectionone .continir .sectionbannerthree .scetioncity h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main .sectionone .continir .sectionbannerthree .scetioncity p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main .sectionone .continir .sectionbannerthree .scetioncity .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main .sectionone .continir .sectionbannerthree .scetioncity .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main .sectionone .continir .sectionbannerthree .scetioncity .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main .sectionone .continir .sectionbannerthree .scetioncity .button svg {
+  margin-left: 147px;
+}
+body main .sectionone .continir .sectionbannerthree .scetioncity:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main .sectionone .continir .sectionbannerthree .sectionman {
+  background-image: url("../img/man.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main .sectionone .continir .sectionbannerthree .sectionman h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionman p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionman .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionman .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionman .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionman .button svg {
+  margin-left: 147px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionman:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main .sectionone .continir .sectionbannerthree .sectionhouse {
+  background-image: url("../img/house.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main .sectionone .continir .sectionbannerthree .sectionhouse h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionhouse p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionhouse .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionhouse .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionhouse .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionhouse .button svg {
+  margin-left: 147px;
+}
+body main .sectionone .continir .sectionbannerthree .sectionhouse:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main .sectiontwo .continir {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+body main .sectiontwo .continir .sectionbannerthree {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionnature {
+  background-image: url("../img/mountaen.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionnature h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionnature p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionnature .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionnature .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionnature .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionnature .button svg {
+  margin-left: 147px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionnature:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main .sectiontwo .continir .sectionbannerthree .scetioncity {
+  background-image: url("../img/tree.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main .sectiontwo .continir .sectionbannerthree .scetioncity h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main .sectiontwo .continir .sectionbannerthree .scetioncity p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main .sectiontwo .continir .sectionbannerthree .scetioncity .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main .sectiontwo .continir .sectionbannerthree .scetioncity .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main .sectiontwo .continir .sectionbannerthree .scetioncity .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main .sectiontwo .continir .sectionbannerthree .scetioncity .button svg {
+  margin-left: 147px;
+}
+body main .sectiontwo .continir .sectionbannerthree .scetioncity:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionman {
+  background-image: url("../img/lion.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionman h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionman p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionman .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionman .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionman .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionman .button svg {
+  margin-left: 147px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionman:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionhouse {
+  background-image: url("../img/treeone.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionhouse h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionhouse p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionhouse .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionhouse .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionhouse .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionhouse .button svg {
+  margin-left: 147px;
+}
+body main .sectiontwo .continir .sectionbannerthree .sectionhouse:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main .sectionthree .continir {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+body main .sectionthree .continir .sectionbannerthree {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionnature {
+  background-image: url("../img/water.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionnature h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionnature p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionnature .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionnature .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionnature .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionnature .button svg {
+  margin-left: 147px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionnature:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main .sectionthree .continir .sectionbannerthree .scetioncity {
+  background-image: url("../img/hours.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main .sectionthree .continir .sectionbannerthree .scetioncity h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main .sectionthree .continir .sectionbannerthree .scetioncity p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main .sectionthree .continir .sectionbannerthree .scetioncity .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main .sectionthree .continir .sectionbannerthree .scetioncity .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main .sectionthree .continir .sectionbannerthree .scetioncity .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main .sectionthree .continir .sectionbannerthree .scetioncity .button svg {
+  margin-left: 147px;
+}
+body main .sectionthree .continir .sectionbannerthree .scetioncity:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionman {
+  background-image: url("../img/watrerone.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionman h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionman p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionman .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionman .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionman .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionman .button svg {
+  margin-left: 147px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionman:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionhouse {
+  background-image: url("../img/mountainone.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionhouse h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionhouse p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionhouse .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionhouse .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionhouse .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionhouse .button svg {
+  margin-left: 147px;
+}
+body main .sectionthree .continir .sectionbannerthree .sectionhouse:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main .sectionfour .continir {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+body main .sectionfour .continir .sectionbannerthree {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionnature {
+  background-image: url("../img/start.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionnature h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionnature p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionnature .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionnature .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionnature .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionnature .button svg {
+  margin-left: 147px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionnature:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main .sectionfour .continir .sectionbannerthree .scetioncity {
+  background-image: url("../img/mountaintwo.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main .sectionfour .continir .sectionbannerthree .scetioncity h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main .sectionfour .continir .sectionbannerthree .scetioncity p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main .sectionfour .continir .sectionbannerthree .scetioncity .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main .sectionfour .continir .sectionbannerthree .scetioncity .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main .sectionfour .continir .sectionbannerthree .scetioncity .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main .sectionfour .continir .sectionbannerthree .scetioncity .button svg {
+  margin-left: 147px;
+}
+body main .sectionfour .continir .sectionbannerthree .scetioncity:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionman {
+  background-image: url("../img/flowers.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionman h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionman p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionman .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionman .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionman .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionman .button svg {
+  margin-left: 147px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionman:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionhouse {
+  background-image: url("../img/snow.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionhouse h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionhouse p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionhouse .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionhouse .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionhouse .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionhouse .button svg {
+  margin-left: 147px;
+}
+body main .sectionfour .continir .sectionbannerthree .sectionhouse:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body footer {
+  background: #000;
+  width: 100%;
+  height: 100%;
+}
+body footer .continir {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+body footer .continir .footerbanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body footer .continir .footerbanner .footerbannerlogo {
+  padding-top: 64px;
+}
+body footer .continir .footerbanner .footerbannerlogo .logolinks {
+  margin-top: 85px;
+  padding-bottom: 65px;
+}
+body footer .continir .footerbanner .footerbannerlinks {
+  display: flex;
+  flex-direction: column;
+}
+body footer .continir .footerbanner .footerbannerlinks a {
+  margin-top: 19px;
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+body footer .continir .footerbanner .footerbannerlinks a:hover {
+  color: #494949;
+}
+body footer .continir .footerbanner .footerbannerdate button {
+  border: none;
+  background: #000;
+}
+body footer .continir .footerbanner .footerbannerdate button a {
+  text-decoration: none;
+  color: #FFF;
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body footer .continir .footerbanner .footerbannerdate button:hover {
+  border-bottom: 1px solid white;
+}
+body footer .continir .footerbanner .footerbannerdate p {
+  color: #494949;
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 86px;
+}
+
+@media (max-width: 1280px) {
+  .sectionbannerthree {
+    flex-direction: column;
+  }
+}
+@media (max-width: 680px) {
+  .navigitionlinks {
+    display: none;
+  }
+  .footerbanner {
+    flex-direction: column;
+  }
+  .footerbannerdate {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 460px) {
+  .headerbannertext {
+    padding-right: 90px;
+  }
+}
+@media (max-width: 423px) {
+  .navigitionbutton {
+    display: none;
+  }
+  .footerbannerdate {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .footerbannerdate p {
+    margin-right: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .sectionnature {
+    max-width: 200px;
+    height: 100px;
+  }
+  .scetioncity {
+    max-width: 200px;
+    height: 100px;
+  }
+  .sectionman {
+    max-width: 200px;
+    height: 100px;
+  }
+  .sectionhouse {
+    max-width: 200px;
+    height: 100px;
+  }
+}/*# sourceMappingURL=index.css.map */

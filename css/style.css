@@ -1,0 +1,710 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+body header .continir {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+body header .continir nav {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+body header .continir nav .navigition {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+body header .continir nav .navigition .navigitionlinks a {
+  text-decoration: none;
+  margin-left: 37px;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body header .continir nav .navigition .navigitionlinks a:hover {
+  color: #B3B3B3;
+  cursor: pointer;
+}
+body header .continir nav .navigition .navigitionbutton button {
+  padding: 12px 24px 12px 24px;
+  border: none;
+  background-color: #000;
+}
+body header .continir nav .navigition .navigitionbutton button a {
+  text-decoration: none;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body header .continir nav .navigition .navigitionbutton button:hover {
+  background-color: #B3B3B3;
+}
+body header .continir nav .navigition .navigitionbutton button:hover a {
+  color: #000;
+}
+body header .continir .headerbanner {
+  display: flex;
+  align-items: center;
+}
+body header .continir .headerbanner .headerbannertext {
+  width: 610px;
+  height: 650px;
+  background-color: #000;
+}
+body header .continir .headerbanner .headerbannertext h1 {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+  padding-top: 173px;
+  padding-left: 112px;
+}
+body header .continir .headerbanner .headerbannertext p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 21px;
+  padding-left: 112px;
+}
+body header .continir .headerbanner .headerbannertext button {
+  border: none;
+  background-color: #000;
+  margin-top: 48px;
+  padding-left: 112px;
+}
+body header .continir .headerbanner .headerbannertext button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body header .continir .headerbanner .headerbannertext button:hover {
+  cursor: pointer;
+}
+body header .continir .headerbanner .headerbannerimg {
+  outline: hidden;
+}
+body main section .continir {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+body main section .continir .sectionbannerone {
+  display: flex;
+  align-items: center;
+}
+body main section .continir .sectionbannerone .sectionbannertextone {
+  padding-left: 112px;
+}
+body main section .continir .sectionbannerone .sectionbannertextone h1 {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+}
+body main section .continir .sectionbannerone .sectionbannertextone p {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 21px;
+}
+body main section .continir .sectionbannerone .sectionbannertextone button {
+  border: none;
+  background-color: #FFF;
+  margin-top: 48px;
+}
+body main section .continir .sectionbannerone .sectionbannertextone button a {
+  text-decoration: none;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main section .continir .sectionbannerone .sectionbannertextone button img {
+  margin-left: 26px;
+}
+body main section .continir {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+body main section .continir .sectionbannertwo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body main section .continir .sectionbannertwo .sectionbannertexttwo {
+  padding-left: 112px;
+}
+body main section .continir .sectionbannertwo .sectionbannertexttwo h1 {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+  padding-top: 160px;
+}
+body main section .continir .sectionbannertwo .sectionbannertexttwo p {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 21px;
+}
+body main section .continir .sectionbannertwo .sectionbannertexttwo button {
+  border: none;
+  background-color: #fff;
+  margin-top: 48px;
+}
+body main section .continir .sectionbannertwo .sectionbannertexttwo button a {
+  text-decoration: none;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main section .continir .sectionbannertwo .sectionbannertexttwo button img {
+  margin-left: 26px;
+}
+body main section .continir {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+body main section .continir .sectionbannerthree {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body main section .continir .sectionbannerthree .sectionnature {
+  background-image: url("../img/nature.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main section .continir .sectionbannerthree .sectionnature h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main section .continir .sectionbannerthree .sectionnature p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main section .continir .sectionbannerthree .sectionnature .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main section .continir .sectionbannerthree .sectionnature .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main section .continir .sectionbannerthree .sectionnature .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main section .continir .sectionbannerthree .sectionnature .button svg {
+  margin-left: 147px;
+}
+body main section .continir .sectionbannerthree .sectionnature:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main section .continir .sectionbannerthree .scetioncity {
+  background-image: url("../img/city.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main section .continir .sectionbannerthree .scetioncity h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main section .continir .sectionbannerthree .scetioncity p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main section .continir .sectionbannerthree .scetioncity .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main section .continir .sectionbannerthree .scetioncity .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main section .continir .sectionbannerthree .scetioncity .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main section .continir .sectionbannerthree .scetioncity .button svg {
+  margin-left: 147px;
+}
+body main section .continir .sectionbannerthree .scetioncity:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main section .continir .sectionbannerthree .sectionman {
+  background-image: url("../img/man.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main section .continir .sectionbannerthree .sectionman h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main section .continir .sectionbannerthree .sectionman p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main section .continir .sectionbannerthree .sectionman .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main section .continir .sectionbannerthree .sectionman .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main section .continir .sectionbannerthree .sectionman .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main section .continir .sectionbannerthree .sectionman .button svg {
+  margin-left: 147px;
+}
+body main section .continir .sectionbannerthree .sectionman:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main section .continir .sectionbannerthree .sectionhouse {
+  background-image: url("../img/house.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+body main section .continir .sectionbannerthree .sectionhouse h1 {
+  padding-top: 361px;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 40px;
+}
+body main section .continir .sectionbannerthree .sectionhouse p {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 40px;
+  margin-top: 5px;
+}
+body main section .continir .sectionbannerthree .sectionhouse .mountain {
+  width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+  margin-left: 40px;
+}
+body main section .continir .sectionbannerthree .sectionhouse .button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+body main section .continir .sectionbannerthree .sectionhouse .button a {
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body main section .continir .sectionbannerthree .sectionhouse .button svg {
+  margin-left: 147px;
+}
+body main section .continir .sectionbannerthree .sectionhouse:hover {
+  transition-duration: 1.5s;
+  transform: translateY(-25px);
+  cursor: pointer;
+}
+body main section .continir {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+body main section .continir .sectionbannerfour {
+  padding-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+body main section .continir .sectionbannerfour .sectionbannercom {
+  text-align: center;
+}
+body main section .continir .sectionbannerfour .sectionbannercom h1 {
+  color: #000;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  margin-top: 48px;
+}
+body main section .continir .sectionbannerfour .sectionbannercom p {
+  color: #000;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 16px;
+}
+body main section .continir .sectionbannerfour .sectionbannerinfinite {
+  text-align: center;
+}
+body main section .continir .sectionbannerfour .sectionbannerinfinite h1 {
+  color: #000;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  margin-top: 86px;
+}
+body main section .continir .sectionbannerfour .sectionbannerinfinite p {
+  color: #000;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 16px;
+}
+body main section .continir .sectionbannerfour .sectionbannerseti {
+  text-align: center;
+}
+body main section .continir .sectionbannerfour .sectionbannerseti h1 {
+  color: #000;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  margin-top: 48px;
+}
+body main section .continir .sectionbannerfour .sectionbannerseti p {
+  color: #000;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 16px;
+}
+body footer {
+  background: #000;
+  width: 100%;
+  height: 100%;
+}
+body footer .continir {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+body footer .continir .footerbanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body footer .continir .footerbanner .footerbannerlogo {
+  padding-top: 64px;
+}
+body footer .continir .footerbanner .footerbannerlogo .logolinks {
+  margin-top: 85px;
+  padding-bottom: 65px;
+}
+body footer .continir .footerbanner .footerbannerlinks {
+  display: flex;
+  flex-direction: column;
+}
+body footer .continir .footerbanner .footerbannerlinks a {
+  margin-top: 19px;
+  text-decoration: none;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+body footer .continir .footerbanner .footerbannerlinks a:hover {
+  color: #494949;
+}
+body footer .continir .footerbanner .footerbannerdate button {
+  border: none;
+  background: #000;
+}
+body footer .continir .footerbanner .footerbannerdate button a {
+  text-decoration: none;
+  color: #FFF;
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+body footer .continir .footerbanner .footerbannerdate button:hover {
+  border-bottom: 1px solid white;
+}
+body footer .continir .footerbanner .footerbannerdate p {
+  color: #494949;
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 86px;
+}
+
+@media (max-width: 1215px) {
+  .headerbannerimg img {
+    width: 550px;
+    height: 650px;
+  }
+  .sectionbannerthree {
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .sectionbannerimgone img {
+    width: 550px;
+    height: 650px;
+  }
+  .sectionbannerimgtwo img {
+    width: 550px;
+    height: 650px;
+  }
+}
+@media (max-width: 935px) {
+  .headerbanner {
+    flex-direction: column;
+  }
+  .sectionbannerone {
+    flex-direction: column;
+  }
+  .sectionbannertwo {
+    flex-direction: column;
+  }
+  .sectionbannerimgtwo img {
+    margin-top: 72px;
+  }
+  .sectionbannerfour {
+    flex-direction: column;
+    text-align: center;
+  }
+  .sectionbannerinfinite {
+    margin-top: 56px;
+  }
+  .sectionbannerseti {
+    margin-top: 56px;
+  }
+}
+@media (max-width: 680px) {
+  .navigitionlinks {
+    display: none;
+  }
+  .headerbannerimg img {
+    width: 599px;
+    height: 460px;
+  }
+  .sectionbannerimgone img {
+    width: 599px;
+    height: 460px;
+  }
+  .sectionbannerimgtwo img {
+    width: 599px;
+    height: 460px;
+  }
+  .footerbanner {
+    flex-direction: column;
+  }
+  .footerbannerdate {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 423px) {
+  .headerbannertext {
+    width: 100%;
+    height: 100%;
+    padding-left: 100px;
+  }
+  .navigitionbutton {
+    display: none;
+  }
+  .headerbannerimg img {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .headerbannertext {
+    padding-left: 200px;
+    width: 100%;
+    height: 100%;
+  }
+  .sectionnature {
+    max-width: 200px;
+    height: 100px;
+  }
+  .scetioncity {
+    max-width: 200px;
+    height: 100px;
+  }
+  .sectionman {
+    max-width: 200px;
+    height: 100px;
+  }
+  .sectionhouse {
+    max-width: 200px;
+    height: 100px;
+  }
+}/*# sourceMappingURL=style.css.map */
